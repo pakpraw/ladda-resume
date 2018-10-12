@@ -1,7 +1,7 @@
 version: '3'
 services:
   resume:
-    build:
+    build: .
     image: laddawan-resume
     container_name: laddawan-resume
     ports:
